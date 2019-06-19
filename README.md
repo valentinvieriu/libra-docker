@@ -1,0 +1,1 @@
+This is a Docker image that builds the libra client

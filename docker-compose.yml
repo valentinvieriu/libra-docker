@@ -1,0 +1,14 @@
+version: '2.4'
+services:
+  libra:
+    image: 'valentinvieriu/alpine-libra:1.0.0'
+    build:
+      context: '.'
+      dockerfile: 'Dockerfile'
+    # ports:
+    #   - '1883:1883'
+    #   - '9001:9001'
+    # volumes: 
+    #   - '${ROOT_FOLDER}/.cargo/registry:/home/rust/.cargo/registry'
+    #   - '${ROOT_FOLDER}/.cargo/git:/home/rust/.cargo/git'
+    #   - '${ROOT_FOLDER}/target:/home/rust/libra/target'
